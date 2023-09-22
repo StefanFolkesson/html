@@ -15,10 +15,25 @@ nav{
     background-color: blue;
     height:50px;
     width:70%;
+    display: flex;
 }
-a{
-    background-color: violet;
-    display: inline-block;
+main{
+    background-color: bisque;
+    width:80%;
+    height:70vh;
+}
+aside{
+    background-color: brown;
+    height: 70vh;
+}
+aside aside {
+    background-color: aqua;
+    height:20vh;
+}
+li{
+    list-style-type: none;
+    display: block;
     width:20%;
     height:100%;
+    background-color: violet;
 }
