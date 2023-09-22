@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin:0;
+    border:0;
+}
+header{
+    background-color: skyblue;
+    height:150px;
+    position: relative;
+}
+nav{
+    position: absolute;
+    left:15%;
+    bottom:10px;
+    background-color: blue;
+    height:50px;
+    width:70%;
+}
+a{
+    background-color: violet;
+    display: inline-block;
+    width:20%;
+    height:100%;
+}
